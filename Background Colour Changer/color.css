@@ -1,0 +1,115 @@
+
+
+body{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.main h1{
+    padding: 1rem;
+    background-color:antiquewhite;
+    border:0.3rem solid rgba(177, 78, 78, 0.566);
+    border-radius: 1.5rem;
+    box-shadow:  5px 10px 5px;
+    outline: 0.1rem solid white;
+
+}
+.main h3{
+    margin-top: 8rem;
+    animation: animate 1s infinite alternate;
+}
+@keyframes animate{
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.5);
+    }
+}
+
+.blocks{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(2,100px);
+    gap: 15px;
+    margin-top: 3rem;
+    
+}
+.block:nth-child(1){
+    font-weight:bold ;
+    background-color: brown;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid black;
+    border-radius: 1.5rem;
+    transition-duration: 0.5s;
+}
+.block:nth-child(1):hover{
+    
+    box-shadow:  5px 5px 10px;
+}
+.block:nth-child(2){
+    font-weight:bold ;
+    background-color: grey;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid black;
+    border-radius: 1.5rem;
+    transition-duration: 0.5s;
+}
+.block:nth-child(2):hover{
+    box-shadow:  5px 5px 10px;
+}
+.block:nth-child(3){
+    font-weight:bold ;
+    background-color:cornflowerblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid black;
+    border-radius: 1.5rem;
+    transition-duration: 0.5s;
+
+}
+.block.block:nth-child(3):hover{
+    box-shadow:  5px 5px 10px;
+}
+.block:nth-child(4){
+    font-weight:bold ;
+    background-color:rgb(239, 205, 163);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid black;
+    border-radius: 1.5rem;
+    transition-duration: 0.5s;
+
+}
+.block:nth-child(4):hover{
+    box-shadow:  5px 5px 10px;
+}
+.block:nth-child(5){
+    font-weight:bold ;
+    background-color: rgb(80, 165, 100);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2.5px solid black;
+    border-radius: 1.5rem;
+    transition-duration: 0.5s;
+
+}
+.block:nth-child(5):hover{
+    box-shadow:  5px 5px 10px;
+}
